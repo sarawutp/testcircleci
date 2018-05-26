@@ -11,15 +11,4 @@ public class TestController {
     public String otpCreate(	) {
 	    return "OK";
     }
-    
-    @RequestMapping(value="/test2", method=RequestMethod.GET)
-    public String otpCreate2(	) {
-	    return "OK";
-    }
-    
-    @RequestMapping(value="/test22", method=RequestMethod.GET)
-    public String otpCreate22(	) {
-	    return "OK";
-    }
-    
 }
